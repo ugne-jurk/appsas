@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Skaičiuotuvas</string>
+
+    <!-- Payment type strings -->
+    <string name="annuity">Anuitetas</string>
+    <string name="linear">Linijinis</string>
+
+    <!-- Payment types array for spinner -->
+    <string-array name="payment_types">
+        <item>@string/annuity</item>
+        <item>@string/linear</item>
+    </string-array>
+
+    <!-- UI labels -->
+    <string name="loan_amount">Paskolos suma</string>
+    <string name="loan_term_years">Terminas (metai)</string>
+    <string name="loan_term_months">Terminas (mėnesiai)</string>
+    <string name="interest_rate">Palūkanų norma (%)</string>
+    <string name="payment_type">Mokėjimo tipas</string>
+    <string name="calculate">Skaičiuoti</string>
+    <string name="monthly_payment">Mėnesinė įmoka</string>
+
+    <!-- Error messages -->
+    <string name="check_input_data">Patikrinkite įvestus duomenis</string>
+</resources>
